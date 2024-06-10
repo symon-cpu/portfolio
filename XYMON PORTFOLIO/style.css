@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin: 5px;
+    /*border: 1px rgb(255, 0, 0) dashed;*/
+}
+.body{
+    background-image: url(bckg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+    position: relative;
+}
+.navbar{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+}
+ul{
+    align-items: stretch;
+    width: auto;
+    height: 1%;
+    margin: auto;
+    margin-right: 1%;
+}
+li{
+    display: flex;
+    gap: 1rem;
+    min-width: fit-content;
+}
+#port{
+    font-size: clamp(30px, 5vw ,100px);
+    margin-right: 10%;
+    margin-left: 0;
+    font-weight: bolder;
+    font-family: Georgia, serif;
+    color: aqua;
+    text-shadow: 3px 3px #727272;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    flex-direction:row-reverse;
+    padding: 10px;
+    font-size: 120%;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+ul li a:hover{
+    color: rgb(59,174,209);
+}
+span{
+    color: aqua;
+}
+#info{
+    color: white;
+    text-shadow: 3px 3px #727272;
+    width: auto;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 150%;
+    text-align: center;
+}
+#info h1{
+    font-size: clamp(20px, 3vw ,100px);
+}
+#info h3{
+    font-size: clamp(35px, 6vw ,100px);
+}
+
+.introduction{
+    margin-top: 10%;
+}
+#self_intro{
+    text-align: center;
+    color: aqua;
+    font-family: Georgia, serif;
+    font-size: clamp(30px, 4vw ,100px)
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height:240px;
+    margin: 100px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: rgb(72, 72, 212);
+    -webkit-box-shadow: 8px 5px 8px 1.5px #000a68;
+    -moz-box-shadow: 8px 5px 8px 1.5px #000a68;
+    box-shadow: 8px 5px 8px 1.5px #000a68;
+    border-radius: 6%;
+}
+.card h4{
+    font-size: 25px;
+    text-align: center;
+}
